@@ -1,0 +1,96 @@
+.Card {
+    width: 300px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+    cursor: pointer;
+    border-radius: 20%;
+    text-align: center;
+    padding-top: 100px;
+    background: white;
+    box-shadow: 0 35px 65px 0 rgba(163, 120, 217, 0.55), inset 0 -10px 15px 0 rgba(163, 120, 217, 0.65);
+}
+
+.Card:hover {
+    transform: scale(1.1, 1.1);
+    box-shadow: 0 35px 65px 0 rgba(163, 120, 217, 0.55), inset 0 -10px 15px 0 rgba(163, 120, 217, 0.65);
+}
+
+.Card:hover img {
+    transform: translateY(-20px);
+}
+
+.Card img {
+    height: 110%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+    opacity: 0.6;
+}
+
+.Cards h2 {
+    margin: 0px 20px;
+    font-size: 60px;
+    text-align: center;
+    font-weight: 700;
+    background: linear-gradient(104.74deg, #050A27 0%, #4A548C 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Cards h3:hover {
+    color: rgb(3, 3, 3);
+}
+
+@media (max-width: 640px) {
+    .Cards h2 {
+        font-size: 30px;
+    }
+}
+
+.Card h3 {
+    color: rgba(51, 51, 51, 0.664);
+    font-size: 30px;
+    margin: 20px 0 0 20px;
+    width: 190px;
+}
+
+.Card p {
+    color: rgba(51, 51, 51, 0.664);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0 0 50px 30px;
+    text-align: left;
+}
+
+.Cards {
+    background: rgba(163, 120, 217, 0.25);
+    margin-top: 0;
+    padding-bottom: 50px;
+}
+
+.CardGroup {
+    margin: 50px 40px 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    justify-items: center;
+}
+
+@media (max-width: 1060px) {
+    .CardGroup {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 720px) {
+    .CardGroup {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
