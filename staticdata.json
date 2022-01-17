@@ -1,0 +1,63 @@
+{
+    "cells": [{
+            "title": "Bash",
+            "description": "Mauris sollicitudin fermentum libero. Etiam feugiat lorem non metus. Praesent turpis. Cras non dolor. Vivamus in erat ut urna cursus vestibulum.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg"
+        },
+        {
+            "title": "Processing",
+            "description": "Mauris sollicitudin fermentum libero. Etiam feugiat lorem non metus. Praesent turpis. Cras non dolor. Vivamus in erat ut urna cursus vestibulum.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/processing/processing-plain-wordmark.svg"
+        },
+        {
+            "title": "Sketch",
+            "description": "Mauris sollicitudin fermentum libero. Etiam feugiat lorem non metus. Praesent turpis. Cras non dolor. Vivamus in erat ut urna cursus vestibulum.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sketch/sketch-original.svg"
+        },
+        {
+            "title": "Sass",
+            "description": "Mauris sollicitudin fermentum libero. Etiam feugiat lorem non metus. Praesent turpis. Cras non dolor. Vivamus in erat ut urna cursus vestibulum.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
+        },
+        {
+            "title": "MSDos",
+            "description": "Mauris sollicitudin fermentum libero. Etiam feugiat lorem non metus. Praesent turpis. Cras non dolor. Vivamus in erat ut urna cursus vestibulum.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/msdos/msdos-line.svg"
+        },
+        {
+            "title": "GitHub",
+            "description": "Mauris sollicitudin fermentum libero. Etiam feugiat lorem non metus. Praesent turpis. Cras non dolor. Vivamus in erat ut urna cursus vestibulum.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+        },
+        {
+            "title": "Docker",
+            "description": "Mauris sollicitudin fermentum libero. Etiam feugiat lorem non metus. Praesent turpis. Cras non dolor. Vivamus in erat ut urna cursus vestibulum.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain-wordmark.svg"
+        },
+        {
+            "title": "D3",
+            "description": "Mauris sollicitudin fermentum libero. Etiam feugiat lorem non metus. Praesent turpis. Cras non dolor. Vivamus in erat ut urna cursus vestibulum.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/d3js/d3js-original.svg"
+        },
+        {
+            "title": "CSS3",
+            "description": "Mauris sollicitudin fermentum libero. Etiam feugiat lorem non metus. Praesent turpis. Cras non dolor. Vivamus in erat ut urna cursus vestibulum.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg"
+        },
+        {
+            "title": "Babel",
+            "description": "Mauris sollicitudin fermentum libero. Etiam feugiat lorem non metus. Praesent turpis. Cras non dolor. Vivamus in erat ut urna cursus vestibulum.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/babel/babel-plain.svg"
+        },
+        {
+            "title": "Tailwind",
+            "description": "Mauris sollicitudin fermentum libero. Etiam feugiat lorem non metus. Praesent turpis. Cras non dolor. Vivamus in erat ut urna cursus vestibulum.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+        },
+        {
+            "title": "Yarn",
+            "description": "Mauris sollicitudin fermentum libero. Etiam feugiat lorem non metus. Praesent turpis. Cras non dolor. Vivamus in erat ut urna cursus vestibulum.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/yarn/yarn-original-wordmark.svg"
+        }
+    ]
+}
