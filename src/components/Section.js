@@ -25,10 +25,10 @@ const SectionLogo = styled.img`
 
 const SectionTitleGroup = styled.div`
     max-width: 800px;
-    margin: 0 40px;
+    margin: 0 auto;
     display: grid;
-    grid-gap: 20px;
-    grid-template-columns: 300px auto;
+    grid-gap: 40px;
+    grid-template-columns: 360px auto;
     grid-template-rows: auto 100%;
 
     @media (max-width: 720px) {
@@ -37,7 +37,7 @@ const SectionTitleGroup = styled.div`
 `
 
 const SectionTitle = styled.h3`
-    color: white;
+    color: rgba(51, 51, 51, 0.838);
     font-size: 60px;
     margin: 0;
     line-height: 1.2;
@@ -48,7 +48,7 @@ const SectionTitle = styled.h3`
 `
 
 const SectionText = styled.p`
-    color: white;
+color: rgba(51, 51, 51, 0.838);
 `
 
 const WaveBottom = styled.div`
@@ -61,7 +61,7 @@ opacity: 0.25;
 const WaveTop = styled.div`
 position:absolute;
 width:100%;
-top:-56px;
+top:-107px;
 transform: rotate(180deg);
 opacity: 0.25;
 `
