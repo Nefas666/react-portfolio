@@ -7,7 +7,7 @@
 }
 
 .HeaderHasScrolled {
-    background: rgba(252, 250, 250, 0.386);
+    background: rgba(252, 250, 250, 0.666);
     padding: 15px 0;
     backdrop-filter: blur(20px);
 }
@@ -23,12 +23,12 @@
 }
 
 .Header a {
-    color: white;
-    font-weight: 700;
+    color: rgba(181, 132, 209, 0.762);
+    font-weight: 500;
 }
 
 .Header a:hover {
-    color: rgba(0, 0, 0, 0.4);
+    color: rgba(181, 132, 209, 0.962);
 }
 
 @media (max-width: 640px) {

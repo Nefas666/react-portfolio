@@ -3,7 +3,7 @@ import styled from "styled-components";
 import gif from "../images/game.gif"
 import Wave from "./Wave";
 
-const SectionGroup = styled.div`
+const SectionGroup = styled.div `
 margin: 100px 0 0;
 background: url(${props => props.image});
 background-size: cover;
@@ -17,13 +17,13 @@ position: relative;
     height: 820px;
 }`
 
-const SectionLogo = styled.img`
+const SectionLogo = styled.img `
     width: 128px;
     margin: 0 auto;
     align-self: end;
 `
 
-const SectionTitleGroup = styled.div`
+const SectionTitleGroup = styled.div `
     max-width: 800px;
     margin: 0 auto;
     display: grid;
@@ -36,7 +36,7 @@ const SectionTitleGroup = styled.div`
     }
 `
 
-const SectionTitle = styled.h3`
+const SectionTitle = styled.h3 `
     color: rgba(51, 51, 51, 0.838);
     font-size: 60px;
     margin: 0;
@@ -47,18 +47,18 @@ const SectionTitle = styled.h3`
     }
 `
 
-const SectionText = styled.p`
+const SectionText = styled.p `
 color: rgba(51, 51, 51, 0.838);
 `
 
-const WaveBottom = styled.div`
+const WaveBottom = styled.div `
 position:absolute;
 width:100%;
-bottom:-6px;
+bottom:-5px;
 opacity: 0.25;
 `
 
-const WaveTop = styled.div`
+const WaveTop = styled.div `
 position:absolute;
 width:100%;
 top:-107px;
@@ -66,22 +66,24 @@ transform: rotate(180deg);
 opacity: 0.25;
 `
 
-const Section = props => (
-    <div>
-        <SectionGroup image={props.image}>
-        <SectionLogo src={gif} />
-        <WaveTop><Wave /></WaveTop>
-        <WaveBottom><Wave /></WaveBottom>
-        <SectionTitleGroup>
-            <SectionTitle>
-            {props.title}
-            </SectionTitle>
-            <SectionText>
-                {props.text}
-            </SectionText>
-        </SectionTitleGroup>
-        </SectionGroup>
-    </div>
+const Section = props => ( <
+    div >
+    <
+    SectionGroup image = { props.image } >
+    <
+    SectionLogo src = { gif }
+    /> <
+    WaveTop > < Wave / > < /WaveTop> <
+    WaveBottom > < Wave / > < /WaveBottom> <
+    SectionTitleGroup >
+    <
+    SectionTitle > { props.title } <
+    /SectionTitle> <
+    SectionText > { props.text } <
+    /SectionText> <
+    /SectionTitleGroup> <
+    /SectionGroup> <
+    /div>
 )
 
 export default Section;
