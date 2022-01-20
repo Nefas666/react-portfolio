@@ -1,0 +1,24 @@
+{
+    "footers": [{
+            "href": "https://www.ahahah.com",
+            "value": "Link 1",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/yarn/yarn-original-wordmark.svg"
+        },
+        {
+            "href": "https://www.ahahah.com",
+            "value": "Link 2",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/yarn/yarn-original-wordmark.svg"
+        },
+        {
+            "href": "https://www.ahahah.com",
+            "value": "Link 1",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/yarn/yarn-original-wordmark.svg"
+        },
+        {
+            "href": "https://www.ahahah.com",
+            "value": "Link 1",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/yarn/yarn-original-wordmark.svg"
+        }
+
+    ]
+}

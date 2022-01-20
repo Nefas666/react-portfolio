@@ -1,16 +1,13 @@
 import * as React from "react"
 import { Link } from "gatsby"
-//import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
-//import Seo from "../components/seo"
 import Card from "../components/Card"
 import Section from "../components/Section"
 import Wave from "../components/Wave"
 import staticdata from "../../staticdata.json"
 import Cell from "../components/Cell"
 import styled from "styled-components"
-//import Helmet from "react-helmet"
 
 const SectionCellGroup = styled.div`
   margin: -1px auto;
@@ -25,6 +22,14 @@ const SectionCellGroup = styled.div`
   }
 `
 
+const WaveTop = styled.div`
+  position: absolute;
+  width: 100%;
+  margin-top:-5px;
+  transform: rotate(180deg);
+  opacity: 0.25;
+`
+
 const IndexPage = () => (
   <Layout>
     <div>
@@ -35,14 +40,6 @@ const IndexPage = () => (
           <Wave />
         </div>
       </div>
-      {/*<StaticImage
-              src="../images/gatsby-astronaut.png"
-              width={300}
-              quality={95}
-              formats={["auto", "webp", "avif"]}
-              alt="A Gatsby astronaut"
-              style={{ marginBottom: `1.45rem` }}
-            />*/}
       <div className="Cards">
         <h2> From Latest to Oldest </h2>
         <div className="CardGroup">
@@ -88,6 +85,9 @@ const IndexPage = () => (
         ))}
       </SectionCellGroup>
     </div>
+    <WaveTop>
+        <Wave />
+        </WaveTop>
   </Layout>
 )
 

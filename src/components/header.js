@@ -4,52 +4,52 @@ import { Link } from "gatsby"
 import logo from "../images/game.gif"
 import "./Header.css"
 
-
 class Header extends React.Component {
-  constructor(props){
+  constructor(props) {
     super(props)
     this.state = {
-      hasScrolled:false
+      hasScrolled: false,
     }
   }
-  componentDidMount (){
-    window.addEventListener('scroll',
-    this.handleScroll)
+  componentDidMount() {
+    window.addEventListener("scroll", this.handleScroll)
   }
-  handleScroll = (event) => {
+  handleScroll = event => {
     const scrollTop = window.pageYOffset
 
     if (scrollTop > 50) {
-      this.setState({hasScrolled:true})
+      this.setState({ hasScrolled: true })
     } else {
-      this.setState ({hasScrolled:false })
+      this.setState({ hasScrolled: false })
     }
   }
-  render(){
-    return(
-      <div className={this.state.hasScrolled ? 'Header HeaderHasScrolled' : 'Header'}>
+  render() {
+    return (
+      <div
+        className={
+          this.state.hasScrolled ? "Header HeaderHasScrolled" : "Header"
+        }
+      >
         <div className="HeaderGroup">
           <Link to="/">
             <img src={logo} width="60" />
           </Link>
-          <Link to="/projects"> Projects </Link> 
-          <Link to="/bio"> Bio </Link>
-          <Link to="/contacts"> Contacts </Link>
+          <Link to="/projects"> Projects </Link> <Link to="/bio"> Bio </Link>
+          <Link to="/contact"> Contacts </Link>
         </div>
-      </div>  
+      </div>
     )
   }
 }
 
-
 {
   /*Header.propTypes = {
-        siteTitle: PropTypes.string,
-      }
+          siteTitle: PropTypes.string,
+        }
 
-      Header.defaultProps = {
-        siteTitle: ``,
-      }*/
+        Header.defaultProps = {
+          siteTitle: ``,
+        }*/
 }
 
 export default Header

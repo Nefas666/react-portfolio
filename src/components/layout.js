@@ -11,7 +11,17 @@ import { useStaticQuery, graphql } from "gatsby"
 import Helmet from "react-helmet"
 
 import Header from "./header"
+import Footer from "./Footer"
+
+import footerdata from "../../footerdata.json"
+import styled from "styled-components"
+
 import "./layout.css"
+
+const ReactFooterContainer = styled.section`
+ margin-top:200px; 
+`
+
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -35,15 +45,19 @@ const Layout = ({ children }) => {
       />
       <Header />
       <main> {children} </main>
-      {/*<footer
-                      style={{
-                        marginTop: `2rem`,
-                      }}
-                    >
-                      © {new Date().getFullYear()}, Built with
-                      {` `}
-                      <a href="https://www.gatsbyjs.com">Gatsby</a>
-                    </footer>*/}
+      <ReactFooterContainer>
+      {footerdata.footers.map(footer => (
+          <Footer
+            value={footer.value}
+            href={footer.href}
+            src={footer.src || ""}
+          />
+        ))}
+
+      </ReactFooterContainer>
+    <div className="FooterCopyRight">
+      <span>© {new Date().getFullYear()} S M</span>
+    </div>
     </div>
   )
 }
