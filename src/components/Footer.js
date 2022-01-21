@@ -13,24 +13,23 @@ align-items:center;
   
 `
 const FooterImage = styled.img`
-height:50px;
-width:50px;
-  
+width:40px;
+padding-bottom:30px;
+opacity:0.6;
 `
 const FooterHref = styled.a`
-  
+padding-bottom:30px;
+text-indent: 25px;
+color:rgba(181, 132, 209, 0.962);
 `
 
-
-
-
 const Footer = props =>(
-    <footer className="FooterSection">
+    <section className="FooterSection">
         <FooterBox>
-            <FooterImage src = {props.src} ></FooterImage>
+            <FooterImage src = {props.src}></FooterImage>
             <FooterHref href={props.href}>{props.value}</FooterHref>
         </FooterBox>
-    </footer>
+    </section>
    
 )
 export default Footer

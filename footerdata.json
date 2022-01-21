@@ -1,23 +1,18 @@
 {
     "footers": [{
             "href": "https://www.ahahah.com",
-            "value": "Link 1",
-            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/yarn/yarn-original-wordmark.svg"
+            "value": "GitHub",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
         },
         {
             "href": "https://www.ahahah.com",
-            "value": "Link 2",
-            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/yarn/yarn-original-wordmark.svg"
+            "value": "Codepen",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codepen/codepen-plain.svg"
         },
         {
             "href": "https://www.ahahah.com",
-            "value": "Link 1",
-            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/yarn/yarn-original-wordmark.svg"
-        },
-        {
-            "href": "https://www.ahahah.com",
-            "value": "Link 1",
-            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/yarn/yarn-original-wordmark.svg"
+            "value": "Linkedin",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg"
         }
 
     ]

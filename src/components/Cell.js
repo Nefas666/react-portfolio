@@ -20,8 +20,7 @@ const CellImage = styled.div`
   border-radius: 10px;
   background-image: url(${props => props.image});
   background-size: 60px;
-  background-repeat: no-repeat;
-  
+  background-repeat: no-repeat;  
 `
 
 const CellTitle = styled.div`
