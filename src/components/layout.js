@@ -54,7 +54,7 @@ const Layout = ({ children }) => {
             />
           ))}
           <div className="FooterCopyRight">
-            <span> Developed with & #10084; </span>
+            <span> Developed with &#10084; </span>
             <span>© {new Date().getFullYear()} S M</span>
           </div>
         </ReactFooterContainer>
