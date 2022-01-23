@@ -1,0 +1,56 @@
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: left;
+}
+
+label {
+    padding: 1em;
+}
+
+input,
+textarea {
+    appearance: none;
+    border: rgba(163, 120, 217, 0.25);
+    background-color: rgba(164, 120, 217, 0.46);
+    margin-top: 2em;
+    padding: 1em;
+    caret-color: plum;
+    box-shadow: none;
+    resize: none;
+    width: 300px;
+    font-family: 'Prompt', sans-serif;
+    color: #fff;
+    font-weight: 300;
+}
+
+input:focus {
+    appearance: none;
+    outline: 1px solid rgba(164, 120, 217, 0.817);
+}
+
+textarea:focus {
+    appearance: none;
+    outline: 1px solid rgba(164, 120, 217, 0.817);
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 0.7em;
+    text-align: center;
+    color: rgb(164, 120, 217);
+    background: white;
+    box-shadow: 0 35px 65px 0 rgba(163, 120, 217, 0.55), inset 0 -10px 15px 0 rgba(163, 120, 217, 0.85);
+    width: 200px;
+    margin-top: 50px;
+    font-family: 'Prompt', sans-serif;
+}
+
+button:hover {
+    box-shadow: 0 35px 65px 0 rgba(163, 120, 217, 0.55), inset 0 -10px 15px 0 rgba(163, 120, 217, 0.95);
+}

@@ -25,7 +25,7 @@ const SectionCellGroup = styled.div`
 const WaveTop = styled.div`
   position: absolute;
   width: 100%;
-  margin-top:-5px;
+  margin-top: -6px;
   transform: rotate(180deg);
   opacity: 0.25;
 `
@@ -75,7 +75,6 @@ const IndexPage = () => (
         text="Nam at tortor in tellus interdum sagittis. Vestibulum ullamcorper mauris at ligula. Ut tincidunt tincidunt erat. Cras varius. Aliquam eu nunc."
       />
       <SectionCellGroup>
-        
         {staticdata.cells.map(cell => (
           <Cell
             title={cell.title}
@@ -86,8 +85,8 @@ const IndexPage = () => (
       </SectionCellGroup>
     </div>
     <WaveTop>
-        <Wave />
-        </WaveTop>
+      <Wave />
+    </WaveTop>
   </Layout>
 )
 

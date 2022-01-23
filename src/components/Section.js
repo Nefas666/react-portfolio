@@ -55,14 +55,14 @@ const SectionText = styled.p`
 const WaveBottom = styled.div`
   position: absolute;
   width: 100%;
-  bottom: -5px;
+  bottom: -6px;
   opacity: 0.25;
 `
 
 const WaveTop = styled.div`
   position: absolute;
   width: 100%;
-  top: -106px;
+  top: -107px;
   transform: rotate(180deg);
   opacity: 0.25;
 `
