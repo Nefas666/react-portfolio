@@ -1,50 +1,54 @@
 {
-  "name": "gatsby-starter-default",
-  "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.17.2",
-    "gatsby": "^4.5.2",
-    "gatsby-plugin-gatsby-cloud": "^4.5.1",
-    "gatsby-plugin-image": "^2.5.1",
-    "gatsby-plugin-manifest": "^4.5.1",
-    "gatsby-plugin-offline": "^5.5.1",
-    "gatsby-plugin-react-helmet": "^5.5.0",
-    "gatsby-plugin-sharp": "^4.5.1",
-    "gatsby-source-filesystem": "^4.5.1",
-    "gatsby-transformer-sharp": "^4.5.0",
-    "nodemailer": "^6.7.2",
-    "prop-types": "^15.8.0",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-helmet": "^6.1.0",
-    "styled-components": "^3.3.3",
-    "url-loader": "^4.1.1"
-  },
-  "devDependencies": {
-    "prettier": "^2.5.1"
-  },
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "0BSD",
-  "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "start": "gatsby develop",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
-  }
+    "name": "gatsby-starter-default",
+    "private": true,
+    "description": "A simple starter to get up and developing quickly with Gatsby",
+    "version": "0.1.0",
+    "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+    "dependencies": {
+        "axios": "^0.19.2",
+        "cors": "^2.8.5",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.2",
+        "gatsby": "^4.5.2",
+        "gatsby-plugin-gatsby-cloud": "^4.5.1",
+        "gatsby-plugin-image": "^2.5.1",
+        "gatsby-plugin-manifest": "^4.5.1",
+        "gatsby-plugin-offline": "^5.5.1",
+        "gatsby-plugin-react-helmet": "^5.5.0",
+        "gatsby-plugin-sharp": "^4.5.1",
+        "gatsby-source-filesystem": "^4.5.1",
+        "gatsby-transformer-sharp": "^4.5.0",
+        "nodemailer": "^6.7.2",
+        "prop-types": "^15.8.0",
+        "react": "^17.0.1",
+        "react-dom": "^17.0.1",
+        "react-helmet": "^6.1.0",
+        "styled-components": "^3.3.3",
+        "url-loader": "^4.1.1"
+    },
+    "devDependencies": {
+        "prettier": "^2.5.1"
+    },
+    "keywords": [
+        "gatsby"
+    ],
+    "license": "0BSD",
+    "scripts": {
+        "build": "gatsby build",
+        "develop": "gatsby develop",
+        "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+        "start": "gatsby develop",
+        "serve": "gatsby serve",
+        "clean": "gatsby clean",
+        "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+        "start-server": "node server/index.js",
+        "build-start": "gatsby build && npm run start-server"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    },
+    "bugs": {
+        "url": "https://github.com/gatsbyjs/gatsby/issues"
+    }
 }
