@@ -49,15 +49,15 @@ const Form = () => {
             </p>
       )}
         <div>
-          <label htmlFor="name">Name:</label>
+          <label htmlFor="name">📛 :</label>
           <input type="text" id="name" name="name" value={state.name} placeholder="Enter your full name" onChange={onInputChange} />
         </div>
         <div>
-          <label htmlFor="email">Email:</label>
+          <label htmlFor="email">📧 :</label>
           <input type="email" id="email" name="email" value={state.email} placeholder="Enter your email" onChange={onInputChange} />
         </div>
         <div>
-          <label htmlFor="message">Mssg:</label>
+          <label htmlFor="message">💬 :</label>
           <textarea id="message" name="message" value={state.message} placeholder="Enter your message or just say hi :)" onChange={onInputChange}/>
         </div>
         <button type="submit">Send Message</button>

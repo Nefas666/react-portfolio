@@ -34,7 +34,7 @@ class Header extends React.Component {
           <Link to="/">
             <img src={logo} width="60" />
           </Link>
-          <Link to="/projects"> Projects </Link> <Link to="/bio"> Bio </Link>
+          <Link to="/projects"> Projects </Link> <Link to="#bio"> Bio </Link>
           <Link to="/contact"> Contacts </Link>
         </div>
       </div>

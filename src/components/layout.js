@@ -19,7 +19,7 @@ import styled from "styled-components"
 import "./layout.css"
 
 const ReactFooterContainer = styled.section`
-  margin-top: 150px;
+  margin-top: 120px;
   text-align: center;
   color: rgba(181, 132, 209, 0.962);
 `
@@ -46,6 +46,7 @@ const Layout = ({ children }) => {
       <main> {children} </main>
       <footer>
         <ReactFooterContainer>
+          
           {footerdata.footers.map(footer => (
             <Footer
               value={footer.value}
@@ -54,7 +55,7 @@ const Layout = ({ children }) => {
             />
           ))}
           <div className="FooterCopyRight">
-            <span> Developed with &#10084; </span>
+            <span> Developed with & #10084; </span>
             <span>© {new Date().getFullYear()} S M</span>
           </div>
         </ReactFooterContainer>

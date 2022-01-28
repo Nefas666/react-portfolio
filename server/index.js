@@ -5,7 +5,7 @@ const transporter = require ('./config');
 const dotenv = require ('dotenv');
 dotenv.config();
 
-const buildPath = path.join(__dirname, '..', 'build' );
+const buildPath = path.join(__dirname, '..', 'public' );
 app.use(express.json());
 app.use(express.static(buildPath));
 

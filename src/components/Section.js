@@ -55,20 +55,20 @@ const SectionText = styled.p`
 const WaveBottom = styled.div`
   position: absolute;
   width: 100%;
-  bottom: -6px;
+  bottom: -5px;
   opacity: 0.25;
 `
 
 const WaveTop = styled.div`
   position: absolute;
   width: 100%;
-  top: -107px;
+  top: -106px;
   transform: rotate(180deg);
   opacity: 0.25;
 `
 
 const Section = props => (
-  <div>
+  <div id="bio">
     <SectionGroup image={props.image}>
       <SectionLogo src={gif} />
       <WaveTop>
