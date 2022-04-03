@@ -35,37 +35,42 @@ const IndexPage = () => (
     <div>
       <div className="Hero">
         <div className="HeroGroup">
-          <h1> Hello Digital World! </h1> <p> Welcome to my portfolio </p>
-          {/* < Link to = "/page - 2 / " > See what I do here < /Link> <br / > */}
+          <h1> Selene Manno </h1> <p> Creative Developer @DigiTouch</p>
+          
           <Wave />
         </div>
       </div>
       <div className="Cards">
-        <h2 id="projects"> From Latest to Oldest </h2>
+        <h2 id="projects"> Projects: </h2>
+        <h2> From Latest to Oldest </h2>
         <div className="CardGroup">
-          <Card
-            title="Project Title"
-            description="brief but exhaustive description"
+        <Card
+            title="Next.js App"
+            description="[w.i.p] Latest project, an app built with Next.js + React"
           />
           <Card
-            title="Project Title"
-            description="brief but exhaustive description"
+            title="ReactFolio"
+            description="This portfolio was entirely made using React + Gatsby"
           />
           <Card
-            title="Project Title"
-            description="brief but exhaustive description"
+            title="Ishtar"
+            description="Web Experience built using WebGazer and JsPsych (Tensorflow)"
+            url="https://www.ishtarxperience.com/"
           />
           <Card
-            title="Project Title"
-            description="brief but exhaustive description"
+            title="CycloStyle"
+            description="LP built in JS an SCSS for a PWA in wich I'm also a contributor"
+            url="https://www.cyclo.style/"
           />
           <Card
-            title="Project Title"
-            description="brief but exhaustive description"
+            title="Haier PSIRT"
+            description="Client' site built using Tailwind.css"
+            url="https://psirt.haier-europe.com/index.html"
           />
           <Card
-            title="Project Title"
-            description="brief but exhaustive description"
+            title="IA - QCV"
+            description="Client' site built in PHP and Sass"
+            url="https://quellochevoglio.io.185.59.152.63.nip.io/"
           />
         </div>
       </div>

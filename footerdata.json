@@ -1,16 +1,16 @@
 {
     "footers": [{
-            "href": "https://www.ahahah.com",
-            "value": "GitHub",
-            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-        },
-        {
-            "href": "https://www.ahahah.com",
+            "href": "https://codepen.io/nefas666",
             "value": "Codepen",
             "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codepen/codepen-plain.svg"
         },
         {
-            "href": "https://www.ahahah.com",
+            "href": "https://github.com/Nefas666",
+            "value": "GitHub",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+        },
+        {
+            "href": "https://www.linkedin.com/in/selene-manno1992/",
             "value": "Linkedin",
             "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg"
         }

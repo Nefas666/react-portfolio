@@ -1,10 +1,10 @@
 import * as React from "react"
 
-import Layout from "../components/layout"
+import LayoutVariant from "../components/layoutVariant"
 import Form from "../components/Form"
 
 const ContactPage = () => (
-  <Layout>
+  <LayoutVariant>
       <div className="Hero">
         <div className="HeroGroup">
           <div className="FormContainer">
@@ -13,7 +13,7 @@ const ContactPage = () => (
         </div>
         </div>
       </div>
-  </Layout>
+  </LayoutVariant>
 )
 
 export default ContactPage

@@ -7,10 +7,8 @@
 
 import * as React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
-import Helmet from "react-helmet"
 
-import Header from "./header"
+import HeaderVariant from "./headerVariant"
 import Footer from "./Footer"
 
 import footerdata from "../../footerdata.json"
@@ -24,25 +22,12 @@ const ReactFooterContainer = styled.section`
   color: rgba(181, 132, 209, 0.962);
 `
 
-const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-          description
-        }
-      }
-    }
-  `)
+const LayoutVariant = ({ children }) => {
+  
 
   return (
     <div>
-      <Helmet
-        title={data.site.siteMetadata.title}
-        meta={[{ name: "description", content: data.site.siteMetadata }]}
-      />
-      <Header />
+      <HeaderVariant />
       <main> {children} </main>
       <footer>
         <ReactFooterContainer>
@@ -65,8 +50,8 @@ const Layout = ({ children }) => {
   )
 }
 
-Layout.propTypes = {
+LayoutVariant.propTypes = {
   children: PropTypes.node.isRequired,
 }
 
-export default Layout
+export default LayoutVariant

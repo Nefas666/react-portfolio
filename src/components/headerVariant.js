@@ -2,9 +2,9 @@ import * as React from "react"
 //import PropTypes from "prop-types"
 import { Link } from "gatsby"
 import logo from "../images/game.gif"
-import "./Header.css"
+import "./HeaderVariant.css"
 
-class Header extends React.Component {
+class HeaderVariant extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
@@ -30,16 +30,15 @@ class Header extends React.Component {
           this.state.hasScrolled ? "Header HeaderHasScrolled" : "Header"
         }
       >
-        <div className="HeaderGroup">
+        <div className="HeaderGroupPr">
           <Link to="/">
             <img src={logo} width="60" />
           </Link>
-          <Link to="#projects/"> Projects </Link> <Link to="#bio/"> Bio </Link>
-          <Link to="/contact"> Contact </Link>
+          <Link to="/"> Home</Link>
         </div>
       </div>
     )
   }
 }
 
-export default Header
+export default HeaderVariant
