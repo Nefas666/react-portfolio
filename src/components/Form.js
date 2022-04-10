@@ -69,7 +69,7 @@ const Form = () => {
 export default Form;
 
 
-{/*const Form = () => {
+/*const Form = () => {
   const [status, setStatus] = useState("Send Message");
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -80,7 +80,7 @@ export default Form;
       email : email.value,
       message: message.value, 
     };
-    let response = await fetch ("http://localhost:8001/contact", {
+    let response = await fetch ("http://localhost:8000/contact", {
       method: "POST",
       header: {
         "Content-Type": "application/json;charset=utf-8",
@@ -109,5 +109,8 @@ export default Form;
       <button type="submit">{status}</button>
     </form>
   );
-};*/}
+};
+
+export default Form;*/
+
 

@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "styled-components"
-import gif from "../images/game.gif"
+import gif from "../images/avatar.gif"
 import Wave from "./Wave"
 
 const SectionGroup = styled.div`
@@ -29,7 +29,7 @@ const SectionTitleGroup = styled.div`
   margin: 0 auto;
   display: grid;
   grid-gap: 40px;
-  grid-template-columns: 360px auto;
+  grid-template-columns: 320px auto;
   grid-template-rows: auto 100%;
 
   @media (max-width: 720px) {
@@ -38,18 +38,36 @@ const SectionTitleGroup = styled.div`
 `
 
 const SectionTitle = styled.h3`
+  font-weight: 700;
+  background: rgb(26, 3, 42);
+  background: linear-gradient(
+    90deg,
+    rgba(26, 3, 42, 0.9346113445378151) 0%,
+    rgba(26, 3, 42, 0.6993172268907564) 50%,
+    rgba(26, 3, 42, 0.39119397759103647) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
   color: rgba(51, 51, 51, 0.838);
-  font-size: 60px;
+  font-size: 54px;
   margin: 0;
   line-height: 1.2;
 
   @media (max-width: 640px) {
     font-size: 40px;
+    text-align: center;
   }
 `
 
 const SectionText = styled.p`
   color: rgba(51, 51, 51, 0.838);
+  font-size: 22px;
+  line-height: 1.2;
+  @media (max-width: 640px) {
+    padding: 0 20px;
+    font-size: 18px;
+  }
 `
 
 const WaveBottom = styled.div`
@@ -70,7 +88,7 @@ const WaveTop = styled.div`
 const Section = props => (
   <div id="bio">
     <SectionGroup image={props.image}>
-      <SectionLogo src={gif} />
+      <SectionLogo src={gif}/>
       <WaveTop>
         
         <Wave />

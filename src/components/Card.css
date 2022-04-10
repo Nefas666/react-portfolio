@@ -27,9 +27,12 @@
     height: 110%;
     position: absolute;
     top: 0;
+    left: -10px;
+    bottom: 0;
+    right: 0;
     z-index: -1;
-    transition: 0.8s cubic-bezier(0.5, 0.8, 0.3, 0.5);
-    opacity: 0.5;
+    transition: 0.8s cubic-bezier(0.1, -0.2, 0.1, 0.5);
+    opacity: 0.2;
 }
 
 .Cards h2 {
@@ -44,8 +47,12 @@
     -webkit-text-fill-color: transparent;
 }
 
-.Cards h3:hover {
-    color: rgb(3, 3, 3);
+.Cards h3 {
+    background: rgb(26, 3, 42);
+    background: linear-gradient(90deg, rgba(105, 51, 143, 0.935) 0%, rgba(102, 56, 134, 0.699) 50%, rgba(182, 165, 195, 0.391) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 @media (max-width: 640px) {
@@ -67,6 +74,7 @@
     font-size: 18px;
     margin: 0 0 50px 30px;
     text-align: left;
+    padding: 10px;
 }
 
 .Cards {
