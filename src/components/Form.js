@@ -42,7 +42,7 @@ const Form = () => {
     
   };
   return(
-    <form onSubmit={sendMail}>
+    <form onSubmit={sendMail} >
       { result && (
                   <p className={`${result.success ? 'success' : 'error'}`}>
               {result.message}

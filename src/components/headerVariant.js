@@ -1,7 +1,7 @@
 import * as React from "react"
 //import PropTypes from "prop-types"
 import { Link } from "gatsby"
-import logo from "../images/game.gif"
+import logo from "../images/avatar.gif"
 import "./HeaderVariant.css"
 
 class HeaderVariant extends React.Component {
