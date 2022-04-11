@@ -8,7 +8,7 @@ form {
 }
 
 label {
-    padding: 1em;
+    padding: 0.8em;
 }
 
 input,
@@ -49,13 +49,12 @@ button {
     border: none;
     cursor: pointer;
     border-radius: 20px;
-    padding: 0.7em;
+    padding: 0.9em;
     text-align: center;
     color: rgb(164, 120, 217);
     background: white;
     box-shadow: 0 35px 65px 0 rgba(163, 120, 217, 0.55), inset 0 -10px 15px 0 rgba(163, 120, 217, 0.85);
     width: 200px;
-    margin-top: 50px;
     font-family: 'Prompt', sans-serif;
 }
 

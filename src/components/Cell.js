@@ -21,6 +21,9 @@ const CellImage = styled.div`
   background-image: url(${props => props.image});
   background-size: 60px;
   background-repeat: no-repeat;  
+  @media (max-width: 800px) {
+    margin:0 auto;  
+  }
 `
 
 const CellTitle = styled.div`
@@ -30,6 +33,9 @@ const CellTitle = styled.div`
   font-weight: 600;
   margin: 0;
   line-height: 1;
+  @media (max-width: 800px) {
+    text-align:center; 
+  }
 `
 const CellDescription = styled.p`
   font-size: 18px;
@@ -37,6 +43,9 @@ const CellDescription = styled.p`
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   padding: 30px 0;
   font-weight: 300;
+  @media (max-width: 800px) {
+    text-align:center;  
+  }
 `
 
 const Cell = props => (

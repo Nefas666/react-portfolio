@@ -23,7 +23,7 @@ const SectionCellGroup = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 20px;
-  background: rgba(163, 120, 217, 0.25);
+  background: linear-gradient(180deg, rgba(163,120,217,0) 0%, rgba(163,120,217,0.25) 100%);
 
   @media (max-width: 800px) {
     grid-template-columns: repeat(1, 1fr);
@@ -54,8 +54,9 @@ const SectionCellTitleContainer = styled.div`
   padding:20px 0;
   align-items:center;
   justify-content:center;
-  background-color: rgb(163, 120, 217, .25);
-  margin:-1px 0;
+  background: rgb(163,120,217);
+  background: linear-gradient(0deg, rgba(163,120,217,0) 0%, rgba(163,120,217,0.25) 100%);
+  margin:-1px 0 0 0;
 `
 
 const WaveTop = styled.div`
