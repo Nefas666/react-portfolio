@@ -17,11 +17,10 @@ const SectionGroup = styled.div`
     height: 820px;
   }
 `
-
 const SectionLogo = styled.img`
   width: 128px;
   margin: 0 auto;
-  align-self: end;
+  align-self:top;
 `
 
 const SectionTitleGroup = styled.div`
@@ -50,12 +49,12 @@ const SectionTitle = styled.h3`
   background-clip: text;
   -webkit-text-fill-color: transparent;
   color: rgba(51, 51, 51, 0.838);
-  font-size: 54px;
-  margin: 0;
+  font-size: 50px;
+  margin: -180px 0;
   line-height: 1.2;
 
-  @media (max-width: 640px) {
-    font-size: 40px;
+  @media (max-width: 720px) {
+    font-size: 44px;
     text-align: center;
   }
 `
@@ -64,9 +63,11 @@ const SectionText = styled.p`
   color: rgba(51, 51, 51, 0.838);
   font-size: 22px;
   line-height: 1.2;
-  @media (max-width: 640px) {
+  margin: -180px 0;
+  @media (max-width: 720px) {
+    margin: -100px 0;
     padding: 0 20px;
-    font-size: 18px;
+    font-size: 22px;
   }
 `
 
@@ -88,7 +89,7 @@ const WaveTop = styled.div`
 const Section = props => (
   <div id="bio">
     <SectionGroup image={props.image}>
-      <SectionLogo src={gif}/>
+    <SectionLogo src={gif}/> 
       <WaveTop>
         
         <Wave />

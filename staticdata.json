@@ -1,13 +1,23 @@
 {
     "cells": [{
-            "title": "Bash",
+            "title": "Nunkjucks",
             "description": "Mauris sollicitudin fermentum libero. Etiam feugiat lorem non metus. Praesent turpis. Cras non dolor. Vivamus in erat ut urna cursus vestibulum.",
-            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg"
+            "image": ""
         },
         {
-            "title": "Processing",
+            "title": "Figma",
             "description": "Mauris sollicitudin fermentum libero. Etiam feugiat lorem non metus. Praesent turpis. Cras non dolor. Vivamus in erat ut urna cursus vestibulum.",
-            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/processing/processing-plain-wordmark.svg"
+            "image": ""
+        },
+        {
+            "title": "MJML",
+            "description": "Mauris sollicitudin fermentum libero. Etiam feugiat lorem non metus. Praesent turpis. Cras non dolor. Vivamus in erat ut urna cursus vestibulum.",
+            "image": ""
+        },
+        {
+            "title": "TensorFlow",
+            "description": "Mauris sollicitudin fermentum libero. Etiam feugiat lorem non metus. Praesent turpis. Cras non dolor. Vivamus in erat ut urna cursus vestibulum.",
+            "image": ""
         },
         {
             "title": "Sketch",
@@ -15,19 +25,24 @@
             "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sketch/sketch-original.svg"
         },
         {
-            "title": "Sass",
+            "title": "Headed CMS",
+            "description": "Mauris sollicitudin fermentum libero. Etiam feugiat lorem non metus. Praesent turpis. Cras non dolor. Vivamus in erat ut urna cursus vestibulum.",
+            "image": ""
+        },
+        {
+            "title": "SCSS/SASS",
             "description": "Mauris sollicitudin fermentum libero. Etiam feugiat lorem non metus. Praesent turpis. Cras non dolor. Vivamus in erat ut urna cursus vestibulum.",
             "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
         },
         {
-            "title": "MSDos",
+            "title": "Styled Components",
             "description": "Mauris sollicitudin fermentum libero. Etiam feugiat lorem non metus. Praesent turpis. Cras non dolor. Vivamus in erat ut urna cursus vestibulum.",
-            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/msdos/msdos-line.svg"
+            "image": ""
         },
         {
-            "title": "GitHub",
+            "title": "Git",
             "description": "Mauris sollicitudin fermentum libero. Etiam feugiat lorem non metus. Praesent turpis. Cras non dolor. Vivamus in erat ut urna cursus vestibulum.",
-            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+            "image": ""
         },
         {
             "title": "Docker",
@@ -40,9 +55,19 @@
             "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/d3js/d3js-original.svg"
         },
         {
-            "title": "CSS3",
+            "title": "Gatsby",
             "description": "Mauris sollicitudin fermentum libero. Etiam feugiat lorem non metus. Praesent turpis. Cras non dolor. Vivamus in erat ut urna cursus vestibulum.",
-            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg"
+            "image": ""
+        },
+        {
+            "title": "Node",
+            "description": "Mauris sollicitudin fermentum libero. Etiam feugiat lorem non metus. Praesent turpis. Cras non dolor. Vivamus in erat ut urna cursus vestibulum.",
+            "image": ""
+        },
+        {
+            "title": "React",
+            "description": "Mauris sollicitudin fermentum libero. Etiam feugiat lorem non metus. Praesent turpis. Cras non dolor. Vivamus in erat ut urna cursus vestibulum.",
+            "image": ""
         },
         {
             "title": "Babel",
@@ -58,6 +83,21 @@
             "title": "Yarn",
             "description": "Mauris sollicitudin fermentum libero. Etiam feugiat lorem non metus. Praesent turpis. Cras non dolor. Vivamus in erat ut urna cursus vestibulum.",
             "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/yarn/yarn-original-wordmark.svg"
+        },
+        {
+            "title": "NPM",
+            "description": "Mauris sollicitudin fermentum libero. Etiam feugiat lorem non metus. Praesent turpis. Cras non dolor. Vivamus in erat ut urna cursus vestibulum.",
+            "image": ""
+        },
+        {
+            "title": "PHP",
+            "description": "Mauris sollicitudin fermentum libero. Etiam feugiat lorem non metus. Praesent turpis. Cras non dolor. Vivamus in erat ut urna cursus vestibulum.",
+            "image": ""
+        },
+        {
+            "title": "MySQL",
+            "description": "Mauris sollicitudin fermentum libero. Etiam feugiat lorem non metus. Praesent turpis. Cras non dolor. Vivamus in erat ut urna cursus vestibulum.",
+            "image": ""
         }
     ]
 }

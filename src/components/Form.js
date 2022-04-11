@@ -1,116 +1,82 @@
+import { navigate } from 'gatsby-link'
 import React from "react"
-import { useState } from "react";
-import axios from 'axios';
-
+import Layout from './layoutVariant'
 import "./Form.css"
 
-const Form = () => {
-  const [state, setState] = useState({
-   name:'',
-   email:'',
-   message:'' 
-  });
+function encode(data) {
+  return Object.keys(data)
+    .map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+    .join('&')
+}
 
-  const[result, setResult] = useState(null);
-  
-  const sendMail = event => {
-    event.preventDefault();
-    axios
-    .post ('/send', {...state})
-    .then(response =>{
-      setResult(response.data);
-      setState({
-        name:'',
-        email:'',
-        message:''     
-      });
+export default function Contact() {
+  const [state, setState] = React.useState({})
+
+  const handleChange = (e) => {
+    setState({ ...state, [e.target.name]: e.target.value })
+  }
+
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    const form = e.target
+    fetch('/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: encode({
+        'form-name': form.getAttribute('name'),
+        ...state,
+      }),
     })
-    .catch(() =>{
-      setResult({
-        success:false,
-        message:'Something went wrong :( Please, try again after a couple of seconds'
-      });
-    });
-  };
-
-  const onInputChange = event => {
-    const { name, value } = event.target;
-    setState({
-      ...state,
-      [name]: value
-    });
-    
-  };
-  return(
-    <form onSubmit={sendMail} >
-      { result && (
-                  <p className={`${result.success ? 'success' : 'error'}`}>
-              {result.message}
-            </p>
-      )}
-        <div>
-          <label htmlFor="name">📛 :</label>
-          <input type="text" id="name" name="name" value={state.name} placeholder="Enter your full name" onChange={onInputChange} />
-        </div>
-        <div>
-          <label htmlFor="email">📧 :</label>
-          <input type="email" id="email" name="email" value={state.email} placeholder="Enter your email" onChange={onInputChange} />
-        </div>
-        <div>
-          <label htmlFor="message">💬 :</label>
-          <textarea id="message" name="message" value={state.message} placeholder="Enter your message or just say hi :)" onChange={onInputChange}/>
-        </div>
-        <button type="submit">Send Message</button>
-      </form>
-    
-  );
-};
-
-export default Form;
-
-
-/*const Form = () => {
-  const [status, setStatus] = useState("Send Message");
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    setStatus ("Sending...");
-    const { name, email, message } = e.target.elements;
-    let details = {
-      name: name.value,
-      email : email.value,
-      message: message.value, 
-    };
-    let response = await fetch ("http://localhost:8000/contact", {
-      method: "POST",
-      header: {
-        "Content-Type": "application/json;charset=utf-8",
-      },
-      body: JSON.stringify(details),
-    });
-    setStatus("Submit");
-    let result = await response.json();
-    alert (result.status);
-  };
+      .then(() => navigate(form.getAttribute('action')))
+      .catch((error) => alert(error))
+  }
 
   return (
-      <form onSubmit={handleSubmit}>
-      <div>
-        <label htmlFor="name">Name:</label>
-        <input type="text" id="name" name="name" />
+    <Layout>
+       <div className="Hero">
+        <div className="HeroGroup">
+          <div className="FormContainer">
+            <h1>Let's keep in touch!</h1>
+      <form
+        name="contact"
+        method="post"
+        action="/thanks/"
+        data-netlify="true"
+        data-netlify-honeypot="bot-field"
+        onSubmit={handleSubmit}
+      >
+        {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
+        <input type="hidden" name="form-name" value="contact" />
+        <p hidden>
+          <label>
+            Don’t fill this out: <input name="bot-field" onChange={handleChange} />
+          </label>
+        </p>
+        <p>
+          <label>
+          📛 :
+            <input type="text" name="name" placeholder="Enter your full name" onChange={handleChange} />
+          </label>
+        </p>
+        <p>
+          <label>
+          📧 :
+            <input type="email" name="email" placeholder="Enter your email" onChange={handleChange} />
+          </label>
+        </p>
+        <p>
+          <label>
+          💬 :
+            <textarea name="message" placeholder="Enter your message or just say hi :)" onChange={handleChange} />
+          </label>
+        </p>
+        <p>
+          <button type="submit">Send</button>
+        </p>
+      </form>
+        </div>
+        </div>
       </div>
-      <div>
-        <label htmlFor="email">Email:</label>
-        <input type="email" id="email" name="email" />
-      </div>
-      <div>
-        <label htmlFor="message">Mssg:</label>
-        <textarea id="message" name="message" />
-      </div>
-      <button type="submit">{status}</button>
-    </form>
-  );
-};
-
-export default Form;*/
-
-
+    </Layout>
+  )
+}

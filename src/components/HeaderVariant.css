@@ -36,6 +36,6 @@
         padding: 15px 0;
     }
     .HeaderGroup {
-        grid-template-columns: repeat(1, auto);
+        grid-template-columns: repeat(4, 1fr);
     }
 }

@@ -1,5 +1,5 @@
 import * as React from "react"
-import { Link } from "gatsby"
+//import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Card from "../components/Card"
@@ -30,6 +30,34 @@ const SectionCellGroup = styled.div`
   }
 `
 
+const SectionCellTitle = styled.h3`
+  font-weight: 700;
+  background: rgb(26, 3, 42);
+  background: linear-gradient(
+    90deg,
+    rgba(26, 3, 42, 0.9346113445378151) 0%,
+    rgba(26, 3, 42, 0.6993172268907564) 50%,
+    rgba(26, 3, 42, 0.39119397759103647) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: rgba(51, 51, 51, 0.838);
+  font-size: 50px;
+  text-align:center;
+  @media (max-width: 800px) {
+    font-size: 44px;
+  }
+`
+const SectionCellTitleContainer = styled.div`
+  display:flex;
+  padding:20px 0;
+  align-items:center;
+  justify-content:center;
+  background-color: rgb(163, 120, 217, .25);
+  margin:-1px 0;
+`
+
 const WaveTop = styled.div`
   position: absolute;
   width: 100%;
@@ -57,7 +85,7 @@ const IndexPage = () => (
           />
           <Card
             title="ReactFolio"
-            description="This portfolio was entirely made using React+ Gatsby and Styled Components)  "
+            description="This portfolio was entirely made using React+ Gatsby and Styled Components"
             img={reactBg}
           />
           <Card
@@ -87,12 +115,15 @@ const IndexPage = () => (
         </div>
       </div>
       <Section
-        image={require("../images/game.gif")}
         title="Web Dev. + UI = Creative Dev."
-        text="I discovered again the passion for coding in 2020 and so I thought to attend a Web Design course. Before completing it, I gained the role of Junior Creative Developer.
-        My interests are directed towards the developer side of web design and in building complete user centerd projects based on an Agile approach, starting from UI and ending with devOps."
+        text="I started the Tech Path as Social Media Manager and Content Creator in 2013, and since then I've always had more interest towards the technical aspects of my job. In 2020 I thought to attend a Web Design course and gained the role of Junior Creative Developer, fairly before the final exams.
+        The developing side of web design, is the part of my job that I like most and my strenght resides in building complete user centered projects with an Agile approach, starting from UI and ending with devOps."
       />
+      <SectionCellTitleContainer>
+        <SectionCellTitle>Here's a list of the tools and frameworks I'm more experieced with: </SectionCellTitle>
+        </SectionCellTitleContainer>
       <SectionCellGroup>
+        
         {staticdata.cells.map(cell => (
           <Cell
             title={cell.title}
