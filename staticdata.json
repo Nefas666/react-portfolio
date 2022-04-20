@@ -10,13 +10,8 @@
             "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
         },
         {
-            "title": "MJML",
-            "description": "I used this tool in combination with Nunjucks for building reusable template, layout and parts in all marketing related communications.",
-            "image": "https://mjml.io/assets/img/logo-white-small.png"
-        },
-        {
             "title": "TensorFlow",
-            "description": "I learnt to use this library for retrieving eye-gaze data of the user on a specific portion of the screen for developing my first structured code project named 'Ishtar'",
+            "description": "I learnt to use this library for retrieving eye-gaze data of the user on a specific portion of the screen for developing my first structured code project named 'Ishtar'.",
             "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg"
         },
         {
@@ -26,7 +21,7 @@
         },
         {
             "title": "Headed CMS",
-            "description": "Mostly used and abused in its plain form, I started developing in PHP and SASS using a particular internal tool which give the possibility to use the WP backend GUI - and its simplifications - with a custom styled front end, and so, substancially  creating a blank template to work on.",
+            "description": "Mostly used and abused in its plain form, I started developing in PHP and SASS using a particular internal tool which give the possibility to use the WP backend GUI - and its simplifications - connected to some powerful plugins like ACF Pro together for build a custom styled front end, and so, substancially starting right from a blank template to work on.",
             "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg"
         },
         {
@@ -40,59 +35,39 @@
             "image": "https://styled-components.com/logo.png"
         },
         {
+            "title": "Tailwind",
+            "description": "Tailwind is a very powerful library, the more ITCSS oriented I've tested. My intent for my next project is in fact to combine it with React, Gatsby and Next.js for a music related app.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+        },
+        {
             "title": "Git",
             "description": "Git, GitHub or GitLab isn't a matter of concern; Once I started to write code in a collaborative manner, it was crucial to being able to use a clear and simple versioning control system. 'add - commit - pull & push' is what one of colleagues always reminded me to do in the early days and also my personal mantra since I begin developing.",
             "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
         },
         {
-            "title": "Docker",
-            "description": "'Docker Engine starting...'",
-            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain-wordmark.svg"
-        },
-        {
-            "title": "D3",
-            "description": "I've put my hands on this lib to make a simple data visualization section in 'Ishtar' project.",
-            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/d3js/d3js-original.svg"
-        },
-        {
-            "title": "Gatsby",
-            "description": "I used Gatsby in combination with React for developing this simple mini-site and Netlify for a faster but efficient tool to manage it from concept to production. I've had so much fun building the project, that I didn't even notice how much fast I learnt the basics. I find it super-useful when u have to build something fairly static and in a very small amount of time.",
-            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gatsby/gatsby-plain.svg"
-        },
-        {
-            "title": "Node",
-            "description": "",
-            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain-wordmark.svg"
-        },
-        {
             "title": "React",
-            "description": "",
+            "description": "I used React in combination with Gatsby for developing this simple mini-site and Netlify for a faster but efficient tool to manage it from concept to production. I've had so much fun building the project, that I didn't even notice how much fast I learnt the basics. I find it super-useful when you have to build something fairly static and in a very small amount of time.",
             "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
         },
         {
-            "title": "Tailwind",
-            "description": "",
-            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
-        },
-        {
-            "title": "Yarn",
-            "description": "",
-            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/yarn/yarn-original-wordmark.svg"
-        },
-        {
-            "title": "NPM",
-            "description": "",
-            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg"
+            "title": "Node",
+            "description": "I've tested myself with Node and a couple of its micro-services and the primordial version of Ishtar; Due to the complexity of the project, I based the data storage client-side instead of server side. But for the future version of the project I will be prepared to face it once again! ",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain-wordmark.svg"
         },
         {
             "title": "PHP",
-            "description": "PHP is the main back end language I adopted in most corporate projects. I prefer using Node and its microservices, but I'm still learning how to use it at its maximum potencial on my personal projects.",
+            "description": "PHP is the main back-end language I adopted in most corporate projects. For server related dta communications I prefer using Node and its micro-services, but in many cases for my level of knowledge and projects, PHP works just fine.",
             "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg"
         },
         {
             "title": "MySQL",
             "description": "MySQL's the main DB I experimented with.",
             "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-plain.svg"
+        },
+        {
+            "title": "Docker",
+            "description": "'Docker Engine starting...'",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain-wordmark.svg"
         }
     ]
 }
