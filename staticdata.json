@@ -6,92 +6,92 @@
         },
         {
             "title": "Figma",
-            "description": "Figma is the first platform I've approached for UI designs. I prefer to use it for prototypes and Mobile interfaces. I also have a consistent knowledge of the Adobe suite, especially with Adobe Photoshop, Adobe Illustrator and After Effects.",
+            "description": "Figma is the first prototyping tool I've approached in UI designs. I prefer to use it for animated prototypes and Mobile interfaces. I also have a consistent knowledge of the Adobe suite, especially with Adobe Photoshop, Adobe Illustrator and After Effects.",
             "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
         },
         {
             "title": "MJML",
-            "description": "Mauris sollicitudin fermentum libero. Etiam feugiat lorem non metus. Praesent turpis. Cras non dolor. Vivamus in erat ut urna cursus vestibulum.",
+            "description": "I used this tool in combination with Nunjucks for building reusable template, layout and parts in all marketing related communications.",
             "image": "https://mjml.io/assets/img/logo-white-small.png"
         },
         {
             "title": "TensorFlow",
-            "description": "Mauris sollicitudin fermentum libero. Etiam feugiat lorem non metus. Praesent turpis. Cras non dolor. Vivamus in erat ut urna cursus vestibulum.",
+            "description": "I learnt to use this library for retrieving eye-gaze data of the user on a specific portion of the screen for developing my first structured code project named 'Ishtar'",
             "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg"
         },
         {
             "title": "Sketch",
-            "description": "Mauris sollicitudin fermentum libero. Etiam feugiat lorem non metus. Praesent turpis. Cras non dolor. Vivamus in erat ut urna cursus vestibulum.",
+            "description": "Sketch is the main tool I choose in building custom UI for different projects. I composed a custom set up for automating repetitive actions ( using plugins like Automate, Runner, Fontily and Symbol Organizer) and Craft for publishing directly in Invision. ",
             "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sketch/sketch-original.svg"
         },
         {
             "title": "Headed CMS",
-            "description": "Mauris sollicitudin fermentum libero. Etiam feugiat lorem non metus. Praesent turpis. Cras non dolor. Vivamus in erat ut urna cursus vestibulum.",
+            "description": "Mostly used and abused in its plain form, I started developing in PHP and SASS using a particular internal tool which give the possibility to use the WP backend GUI - and its simplifications - with a custom styled front end, and so, substancially  creating a blank template to work on.",
             "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg"
         },
         {
             "title": "SCSS/SASS",
-            "description": "Mauris sollicitudin fermentum libero. Etiam feugiat lorem non metus. Praesent turpis. Cras non dolor. Vivamus in erat ut urna cursus vestibulum.",
+            "description": "With SCSS/SASS has been love at first sight; After studying basic CSS3 without ever achieving the desired stucture and logic I had in mind for my project, I had the chance to experiment, test, and build a consistent code in my stylesheets thanks to SASS. I also started studiyng and applying some conventions while coding; the two I'm more comfortable with are BEM and ITCSS.",
             "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
         },
         {
             "title": "Styled Components",
-            "description": "Mauris sollicitudin fermentum libero. Etiam feugiat lorem non metus. Praesent turpis. Cras non dolor. Vivamus in erat ut urna cursus vestibulum.",
+            "description": "I like to experiment always different methods, development tools and approaches, especially in terms of font-end style suites. I choose to use this one in combination with React+Gatsby.",
             "image": "https://styled-components.com/logo.png"
         },
         {
             "title": "Git",
-            "description": "Mauris sollicitudin fermentum libero. Etiam feugiat lorem non metus. Praesent turpis. Cras non dolor. Vivamus in erat ut urna cursus vestibulum.",
+            "description": "Git, GitHub or GitLab isn't a matter of concern; Once I started to write code in a collaborative manner, it was crucial to being able to use a clear and simple versioning control system. 'add - commit - pull & push' is what one of colleagues always reminded me to do in the early days and also my personal mantra since I begin developing.",
             "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
         },
         {
             "title": "Docker",
-            "description": "Mauris sollicitudin fermentum libero. Etiam feugiat lorem non metus. Praesent turpis. Cras non dolor. Vivamus in erat ut urna cursus vestibulum.",
+            "description": "'Docker Engine starting...'",
             "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain-wordmark.svg"
         },
         {
             "title": "D3",
-            "description": "Mauris sollicitudin fermentum libero. Etiam feugiat lorem non metus. Praesent turpis. Cras non dolor. Vivamus in erat ut urna cursus vestibulum.",
+            "description": "I've put my hands on this lib to make a simple data visualization section in 'Ishtar' project.",
             "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/d3js/d3js-original.svg"
         },
         {
             "title": "Gatsby",
-            "description": "Mauris sollicitudin fermentum libero. Etiam feugiat lorem non metus. Praesent turpis. Cras non dolor. Vivamus in erat ut urna cursus vestibulum.",
+            "description": "I used Gatsby in combination with React for developing this simple mini-site and Netlify for a faster but efficient tool to manage it from concept to production. I've had so much fun building the project, that I didn't even notice how much fast I learnt the basics. I find it super-useful when u have to build something fairly static and in a very small amount of time.",
             "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gatsby/gatsby-plain.svg"
         },
         {
             "title": "Node",
-            "description": "Mauris sollicitudin fermentum libero. Etiam feugiat lorem non metus. Praesent turpis. Cras non dolor. Vivamus in erat ut urna cursus vestibulum.",
+            "description": "",
             "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain-wordmark.svg"
         },
         {
             "title": "React",
-            "description": "Mauris sollicitudin fermentum libero. Etiam feugiat lorem non metus. Praesent turpis. Cras non dolor. Vivamus in erat ut urna cursus vestibulum.",
+            "description": "",
             "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
         },
         {
             "title": "Tailwind",
-            "description": "Mauris sollicitudin fermentum libero. Etiam feugiat lorem non metus. Praesent turpis. Cras non dolor. Vivamus in erat ut urna cursus vestibulum.",
+            "description": "",
             "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
         },
         {
             "title": "Yarn",
-            "description": "Mauris sollicitudin fermentum libero. Etiam feugiat lorem non metus. Praesent turpis. Cras non dolor. Vivamus in erat ut urna cursus vestibulum.",
+            "description": "",
             "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/yarn/yarn-original-wordmark.svg"
         },
         {
             "title": "NPM",
-            "description": "Mauris sollicitudin fermentum libero. Etiam feugiat lorem non metus. Praesent turpis. Cras non dolor. Vivamus in erat ut urna cursus vestibulum.",
+            "description": "",
             "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg"
         },
         {
             "title": "PHP",
-            "description": "Mauris sollicitudin fermentum libero. Etiam feugiat lorem non metus. Praesent turpis. Cras non dolor. Vivamus in erat ut urna cursus vestibulum.",
+            "description": "PHP is the main back end language I adopted in most corporate projects. I prefer using Node and its microservices, but I'm still learning how to use it at its maximum potencial on my personal projects.",
             "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg"
         },
         {
             "title": "MySQL",
-            "description": "Mauris sollicitudin fermentum libero. Etiam feugiat lorem non metus. Praesent turpis. Cras non dolor. Vivamus in erat ut urna cursus vestibulum.",
+            "description": "MySQL's the main DB I experimented with.",
             "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-plain.svg"
         }
     ]

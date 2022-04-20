@@ -11,6 +11,11 @@
         color: #fefefe;
     }
     
+    *::selection {
+        background: rgba(130, 63, 213, 0.5);
+        color: #fefefe;
+    }
+    
     a {
         color: #5334F5;
         font-weight: 600;
