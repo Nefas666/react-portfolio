@@ -76,7 +76,8 @@ const IndexPage = () => (
       <Section
         title="Web Dev. + UI = Creative Dev."
         text="I started the Tech Path as Social Media Manager and Content Creator in 2013, and since then I've always had more interest towards the technical aspects of my job. In 2020 I thought to attend a Web Design course and gained the role of Junior Creative Developer, fairly before the final exams.
-        The developing side of web design, is the part of my job that I like most and my strenght resides in building complete user centered projects with an Agile approach, starting from UI and ending with devOps."
+        The developing side of web design, is the part of my job that I like most and my strenght resides in building complete user centered projects based on an Agile
+        approach. All this reflects into the final work, beginning from UI and accomplishing in development."
       />
      <Tools />
     </div>
