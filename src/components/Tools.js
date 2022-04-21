@@ -48,7 +48,7 @@ const SectionCellTitleContainer = styled.div`
 const Tools = props => (
   <div id="tools">
      <SectionCellTitleContainer>
-        <SectionCellTitle>Here's a list of the tools and frameworks I'm more experieced with: </SectionCellTitle>
+        <SectionCellTitle>Here's a list of tools and frameworks I'm more experienced with: </SectionCellTitle>
         </SectionCellTitleContainer>
       <SectionCellGroup>
         

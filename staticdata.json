@@ -1,32 +1,32 @@
 {
     "cells": [{
             "title": "Nunkjucks",
-            "description": "Javascript templating library that I learnt using with MJML for Direct Marketing Communications and newsletters.",
+            "description": "A Javascript templating library that I learnt using with MJML for Direct Marketing Communications and newsletters.",
             "image": "https://mozilla.github.io/nunjucks/img/favicon.png"
         },
         {
             "title": "Figma",
-            "description": "Figma is the first prototyping tool I've approached in UI designs. I prefer to use it for animated prototypes and Mobile interfaces. I also have a consistent knowledge of the Adobe suite, especially with Adobe Photoshop, Adobe Illustrator and After Effects.",
+            "description": "Figma is the first prototyping tool I've approached in UI designs. I prefer to use it for animated prototypes and Mobile interfaces.",
             "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
         },
         {
             "title": "TensorFlow",
-            "description": "I learnt to use this library for retrieving eye-gaze data of the user on a specific portion of the screen for developing my first structured code project named 'Ishtar'.",
+            "description": "I learnt to use a little part of this library for retrieving eye-gaze data of the user on a specific portion of the screen for developing my first structured code project named 'Ishtar'.",
             "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg"
         },
         {
             "title": "Sketch",
-            "description": "Sketch is the main tool I choose in building custom UI for different projects. I composed a custom set up for automating repetitive actions ( using plugins like Automate, Runner, Fontily and Symbol Organizer) and Craft for publishing directly in Invision. ",
+            "description": "Sketch is the main tool I choose in building custom UI for different projects. I composed a custom set up for automating repetitive actions ( using plugins like Automate, Runner, Fontily and Symbol Organizer) and Craft for publishing directly in Invision. Beyond prototyping tools, I also have a consistent knowledge of the Adobe suite, especially with Adobe Photoshop, Adobe Illustrator and After Effects. ",
             "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sketch/sketch-original.svg"
         },
         {
             "title": "Headed CMS",
-            "description": "Mostly used and abused in its plain form, I started developing in PHP and SASS using a particular internal tool which give the possibility to use the WP backend GUI - and its simplifications - connected to some powerful plugins like ACF Pro together for build a custom styled front end, and so, substancially starting right from a blank template to work on.",
+            "description": "Mostly used and abused in its plain form, I started developing in PHP and SASS using a particular internal tool which give the possibility to use the WP backend GUI - and its simplifications - connected to some powerful plugins like ACF Pro together for build a custom styled front-end, and so, substancially starting right from a blank template to work on.",
             "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg"
         },
         {
             "title": "SCSS/SASS",
-            "description": "With SCSS/SASS has been love at first sight; After studying basic CSS3 without ever achieving the desired stucture and logic I had in mind for my project, I had the chance to experiment, test, and build a consistent code in my stylesheets thanks to SASS. I also started studiyng and applying some conventions while coding; the two I'm more comfortable with are BEM and ITCSS.",
+            "description": "With SCSS/SASS has been love at first sight; After studying basic CSS3 without ever achieving the desired structure and logic I had in mind for my project, I had the chance to experiment, test, and build a consistent code in my stylesheets thanks to SASS. I also started studiyng and applying some conventions while coding; the two I'm more comfortable with are BEM and ITCSS.",
             "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
         },
         {
@@ -46,7 +46,7 @@
         },
         {
             "title": "React",
-            "description": "I used React in combination with Gatsby for developing this simple mini-site and Netlify for a faster but efficient tool to manage it from concept to production. I've had so much fun building the project, that I didn't even notice how much fast I learnt the basics. I find it super-useful when you have to build something fairly static and in a very small amount of time.",
+            "description": "I used React in combination with Gatsby for developing this simple mini-site and Netlify for a faster but efficient tool to manage it from concept to production. I had so much fun building the project, that I didn't even notice how much fast I learnt the basics. I find it super-useful when you have to build something fairly static and in a very small amount of time.",
             "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
         },
         {
