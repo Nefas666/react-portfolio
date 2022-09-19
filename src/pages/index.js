@@ -38,11 +38,6 @@ const IndexPage = () => (
         <h2 id="projects"> Projects: </h2> <h2> From Latest to Oldest </h2>
         <div className="CardGroup">
           <Card
-            title="Coming Soon"
-            description="New project coming soon"
-            img={Placeholder}
-          />
-          <Card
             title="ReactFolio"
             description="This portfolio was entirely made using React+ Gatsby and Styled Components"
             img={reactBg}
@@ -50,7 +45,7 @@ const IndexPage = () => (
           <Card
             title="Ishtar"
             description="Web Experience built mainly using WebGazer JsPsych (Tensorflow-based libs) and SCSS"
-            url="https://www.ishtarxperience.com/"
+            url="https://www.ishtarexperience.com/"
             img={JsPsych}
           />
           <Card
@@ -70,6 +65,12 @@ const IndexPage = () => (
             description="Site built in PHP and SCSS"
             url="https://quellochevoglio.io.185.59.152.63.nip.io/"
             img={phpBg}
+          />
+          <Card
+            title="Adecco"
+            description="Branch site of Adecco.it, developed & designed"
+            url="https://www.adecco.it/logistica"
+            img={Placeholder}
           />
         </div>
       </div>
