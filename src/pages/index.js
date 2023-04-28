@@ -30,55 +30,51 @@ const IndexPage = () => (
     <div>
       <div className="Hero">
         <div className="HeroGroup">
-          <h1> Selene Manno </h1> <p> Creative Developer @DigiTouch</p>
+        <p>Hello, my name is</p>
+          <h1>Selene Manno.</h1><h1>I love to code and to design for the web.</h1> <h5> I'm a frontend developer also specialized in working with backend programming languages and environments. I'm currently working as Creative Developer @DigiTouch and just involved into the CS50 – Introduction to Computer Science course @ Harvard University </h5>
+          <p></p>
           <Wave />
         </div>
       </div>
       <div className="Cards">
-        <h2 id="projects"> Projects: </h2> <h2> From Latest to Oldest </h2>
+        <h2 id="projects"> Projects: </h2> <h2></h2>
         <div className="CardGroup">
-          <Card
-            title="ReactFolio"
-            description="This portfolio was entirely made using React+ Gatsby and Styled Components"
-            img={reactBg}
-          />
+         
           <Card
             title="Ishtar"
-            description="Web Experience built mainly using WebGazer JsPsych (Tensorflow-based libs) and SCSS"
+            description="Creative Coding – Web Experience built mainly using WebGazer JsPsych (Tensorflow-based library)"
             url="https://www.ishtarexperience.com/"
             img={JsPsych}
           />
           <Card
             title="CycloStyle"
-            description="LP built in Vanilla Javascript and SCSS for a PWA in which I'm also a contributor"
+            description="Collaborative Project – PWA developed with Handlebars, Vanilla Js and Bootstrap"
             url="https://www.cyclo.style/"
             img={jsBg}
           />
-          <Card
+            <Card
+              title="Yolo"
+              description="Internship Project – Insurance institutional website built in PHP and Bootstrap"
+              url="https://yolo-insurance.com/site/"
+              img={phpBg}
+            />
+          {/* <Card
             title="Haier PSIRT"
             description="Site built using Tailwind.css"
             url="https://psirt.haier-europe.com/index.html"
             img={tailwind}
-          />
-          <Card
-            title="IA - QCV"
-            description="Site built in PHP and SCSS"
-            url="https://quellochevoglio.io.185.59.152.63.nip.io/"
-            img={phpBg}
-          />
-          <Card
+          /> */}
+          {/* <Card
             title="Adecco"
             description="Branch site of Adecco.it, developed & designed"
             url="https://www.adecco.it/logistica"
             img={Placeholder}
-          />
+          /> */}
         </div>
       </div>
       <Section
-        title="Web Dev. + UI = Creative Dev."
-        text="I started the Tech Path as Social Media Manager and Content Creator in 2013, and since then I've always had more interest towards the technical aspects of my job. In 2020 I thought to attend a Web Design course and gained the role of Junior Creative Developer, fairly before the final exams.
-        The developing side of web design, is the part of my job that I like most and my strenght resides in building complete user centered projects based on an Agile
-        approach. All this reflects into the final work, beginning from UI and accomplishing in development."
+        title="Front-end Developer"
+        text=""
       />
      <Tools />
     </div>

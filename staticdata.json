@@ -1,23 +1,14 @@
 {
-    "cells": [{
-            "title": "Nunkjucks",
-            "description": "A Javascript templating library that I learnt using with MJML for Direct Marketing Communications and newsletters.",
-            "image": "https://mozilla.github.io/nunjucks/img/favicon.png"
+    "cells": [
+        {
+            "title": "React",
+            "description": "I used React in combination with Gatsby for developing this simple mini-site and Netlify for a faster but efficient tool to manage it from concept to production. I had so much fun building the project, that I didn't even notice how much fast I learnt the basics. I find it super-useful when you have to build something fairly static and in a very small amount of time.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
         },
         {
-            "title": "Figma",
-            "description": "Figma is the first prototyping tool I've approached in UI designs. I prefer to use it for animated prototypes and Mobile interfaces.",
-            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
-        },
-        {
-            "title": "TensorFlow",
-            "description": "I learnt to use a little part of this library for retrieving eye-gaze data of the user on a specific portion of the screen for developing my first structured code project named 'Ishtar'.",
-            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg"
-        },
-        {
-            "title": "Sketch",
-            "description": "Sketch is the main tool I choose in building custom UI for different projects. I composed a custom set up for automating repetitive actions ( using plugins like Automate, Runner, Fontily and Symbol Organizer) and Craft for publishing directly in Invision. Beyond prototyping tools, I also have a consistent knowledge of the Adobe suite, especially with Adobe Photoshop, Adobe Illustrator and After Effects. ",
-            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sketch/sketch-original.svg"
+            "title": "Typescript",
+            "description": "Used in combination with React and Material UI, I thought to have found the stack that fits me most.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
         },
         {
             "title": "Headed CMS",
@@ -45,14 +36,14 @@
             "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
         },
         {
-            "title": "React",
-            "description": "I used React in combination with Gatsby for developing this simple mini-site and Netlify for a faster but efficient tool to manage it from concept to production. I had so much fun building the project, that I didn't even notice how much fast I learnt the basics. I find it super-useful when you have to build something fairly static and in a very small amount of time.",
-            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
-        },
-        {
             "title": "Node",
             "description": "I've tested myself with Node and a couple of its micro-services and the primordial version of Ishtar; Due to the complexity of the project, I based the data storage client-side instead of server side. But for the future version of the project I will be prepared to face it once again! ",
             "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain-wordmark.svg"
+        },
+        {
+            "title": "TensorFlow",
+            "description": "I learnt to use a little part of this library for retrieving eye-gaze data of the user on a specific portion of the screen for developing my first structured code project named 'Ishtar'.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg"
         },
         {
             "title": "PHP",
@@ -63,6 +54,16 @@
             "title": "MySQL",
             "description": "MySQL's the main DB I experimented with.",
             "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-plain.svg"
+        },
+        {
+            "title": "Sketch",
+            "description": "Sketch is the main tool I choose in building custom UI for different projects. I composed a custom set up for automating repetitive actions ( using plugins like Automate, Runner, Fontily and Symbol Organizer) and Craft for publishing directly in Invision. Beyond prototyping tools, I also have a consistent knowledge of the Adobe suite, especially with Adobe Photoshop, Adobe Illustrator and After Effects. ",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sketch/sketch-original.svg"
+        },
+        {
+            "title": "Figma",
+            "description": "Figma is the first prototyping tool I've approached in UI designs. I prefer to use it for animated prototypes and Mobile interfaces.",
+            "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
         },
         {
             "title": "Docker",
