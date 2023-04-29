@@ -1,39 +1,41 @@
 import React from "react"
 import styled from "styled-components"
-import gif from "../images/avatar.gif"
+// import gif from "../images/avatar.gif"
 import Wave from "./Wave"
+import "./layout.css"
 
 const SectionGroup = styled.div`
   margin: 100px 0 0;
-  background: url(${props => props.image});
-  background-size: cover;
-  height: 720px;
-  display: grid;
-  grid-template-rows: 300px auto;
-  grid-gap: 20px;
+  min-height:500px;
+  display: flex;
+  flex-direction:row;
+  justify-content:space-between;
+  align-items:center;
   position: relative;
 
   @media (max-width: 640px) {
     height: 820px;
   }
+  box-shadow:var(--shadow-elevation-high);
+  border-bottom-left-radius:24px;
+  border-bottom-right-radius:24px;
 `
-const SectionLogo = styled.img`
-  width: 128px;
-  margin: 0 auto;
-  align-self:top;
-`
+// const SectionLogo = styled.img`
+//   width: 228px;
+//   margin: 0 auto;
+//   align-self:top;
+// `
 
 const SectionTitleGroup = styled.div`
   max-width: 800px;
   margin: 0 auto;
-  display: grid;
-  grid-gap: 40px;
-  grid-template-columns: 320px auto;
-  grid-template-rows: auto 100%;
+  
+  
 
   @media (max-width: 720px) {
     grid-template-columns: 1fr;
   }
+  
 `
 
 const SectionTitle = styled.h3`
@@ -49,8 +51,8 @@ const SectionTitle = styled.h3`
   background-clip: text;
   -webkit-text-fill-color: transparent;
   color: rgba(51, 51, 51, 0.838);
-  font-size: 50px;
-  margin: -180px 0;
+  font-size: 40px;
+  
   line-height: 1.2;
 
   @media (max-width: 720px) {
@@ -59,15 +61,16 @@ const SectionTitle = styled.h3`
   }
 `
 
-const SectionText = styled.p`
+const SectionText = styled.h3`
   color: rgba(51, 51, 51, 0.838);
-  font-size: 22px;
+  font-weight:200;
+  font-size: 18px;
   line-height: 1.2;
-  margin: -180px 0;
+  
   @media (max-width: 720px) {
-    margin: -100px 0;
+    
     padding: 0 20px;
-    font-size: 22px;
+    font-size: 20px;
   }
 `
 
@@ -88,16 +91,13 @@ const WaveTop = styled.div`
 
 const Section = props => (
   <div id="bio">
-    <SectionGroup image={props.image}>
-    <SectionLogo src={gif}/> 
-      <WaveTop>
-        
-        <Wave />
-      </WaveTop>
-      <WaveBottom>
-        
-        <Wave />
-      </WaveBottom>
+    <SectionGroup>
+     
+     
+    <WaveTop>
+      <Wave />
+    </WaveTop>
+      
       <SectionTitleGroup>
         <SectionTitle> {props.title} </SectionTitle>
         <SectionText> {props.text} </SectionText>
