@@ -82,10 +82,10 @@ const IndexPage = () => (
         textAdditional1="By 2020, I was a novice capable of handling small projects that involved HTML, CSS, and JS, from the UX/UI process to the actual development stage. Since then, I have been rapidly acquiring development and design skills, knowledge, and responsibilities. I consistently demonstrate the ability to autonomously achieve solid know-how for each project I undertake. As a front-end developer, I have practical and theoretical skills in applying UX and UI principles to code, as well as an insatiable curiosity about many aspects of Computer Science and Automation🤖."
       />
       <Tools />
-    </div>
     <WaveTop>
       <Wave />
     </WaveTop>
+    </div>
   </Layout>
 )
 
