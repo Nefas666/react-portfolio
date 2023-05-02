@@ -32,7 +32,7 @@ const SectionCellTitle = styled.h3`
   font-size: 50px;
   text-align:center;
   @media (max-width: 800px) {
-    font-size: 44px;
+    font-size: 30px;
   }
 `
 const SectionCellTitleContainer = styled.div`
@@ -48,7 +48,7 @@ const SectionCellTitleContainer = styled.div`
 const Tools = props => (
   <div id="tools">
      <SectionCellTitleContainer>
-        <SectionCellTitle>Most of the time I operate on frontend libraries to accomplish my tasks but I'm always thrilled when I can challenge myself in delving into backend environments and using REST API's </SectionCellTitle>
+        <SectionCellTitle>Most of the time I operate on frontend libraries to accomplish my tasks but I'm always thrilled when I can challenge myself in delving into backend environments and using REST API's</SectionCellTitle>
         </SectionCellTitleContainer>
       <SectionCellGroup>
         

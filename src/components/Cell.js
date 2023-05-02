@@ -35,6 +35,7 @@ const CellTitle = styled.div`
   line-height: 1;
   @media (max-width: 800px) {
     text-align:center; 
+    font-size: 30px;
   }
 `
 const CellDescription = styled.p`

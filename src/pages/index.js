@@ -81,7 +81,8 @@ const IndexPage = () => (
         textAdditional="In 2015, I started my career as a Social Media Manager for Social Networks📱 and Content Creator for Blogs, which prompted me to delve into the world of CMS, specifically Wordpress. My curiosity about its logical functioning piqued my interest and motivated me to enroll in a Web Design📖 course to pursue a new career path🚵." 
         textAdditional1="By 2020, I was a novice capable of handling small projects that involved HTML, CSS, and JS, from the UX/UI process to the actual development stage. Since then, I have been rapidly acquiring development and design skills, knowledge, and responsibilities. I consistently demonstrate the ability to autonomously achieve solid know-how for each project I undertake. As a front-end developer, I have practical and theoretical skills in applying UX and UI principles to code, as well as an insatiable curiosity about many aspects of Computer Science and Automation🤖."
       />
-      <Tools />
+      <Tools
+      sectionTitle="Most of the time I operate on frontend libraries to accomplish my tasks but I'm always thrilled when I can challenge myself in delving into backend environments and using REST API's " />
     <WaveTop>
       <Wave />
     </WaveTop>

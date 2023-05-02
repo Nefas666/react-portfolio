@@ -57,7 +57,7 @@ const SectionTitle = styled.h3`
   line-height: 1.2;
 
   @media (max-width: 720px) {
-    font-size: 44px;
+    font-size: 30px;
     text-align: center;
   }
 `
@@ -70,7 +70,7 @@ const SectionText = styled.h4`
 
   @media (max-width: 720px) {
     padding: 0 20px;
-    font-size: 16px;
+    font-size: 14px;
   }
 `
 
