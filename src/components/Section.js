@@ -1,24 +1,28 @@
 import React from "react"
+
 import styled from "styled-components"
 // import gif from "../images/avatar.gif"
 import Wave from "./Wave"
+ // will return static version on server and "live" version on client
 import "./layout.css"
 
 const SectionGroup = styled.div`
-  margin: 100px 0 0;
-  min-height:500px;
+  
+  min-height: 500px;
   display: flex;
-  flex-direction:row;
-  justify-content:space-between;
-  align-items:center;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   position: relative;
 
   @media (max-width: 640px) {
     height: 820px;
   }
-  box-shadow:var(--shadow-elevation-high);
-  border-bottom-left-radius:24px;
-  border-bottom-right-radius:24px;
+  box-shadow: var(--shadow-elevation-high);
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+  background: rgb(163,120,217);
+  background: linear-gradient(0deg, rgba(163,120,217,0) 0%, rgba(163,120,217,0.25) 100%);
 `
 // const SectionLogo = styled.img`
 //   width: 228px;
@@ -29,13 +33,10 @@ const SectionGroup = styled.div`
 const SectionTitleGroup = styled.div`
   max-width: 800px;
   margin: 0 auto;
-  
-  
 
   @media (max-width: 720px) {
     grid-template-columns: 1fr;
   }
-  
 `
 
 const SectionTitle = styled.h3`
@@ -52,7 +53,7 @@ const SectionTitle = styled.h3`
   -webkit-text-fill-color: transparent;
   color: rgba(51, 51, 51, 0.838);
   font-size: 40px;
-  
+
   line-height: 1.2;
 
   @media (max-width: 720px) {
@@ -61,25 +62,18 @@ const SectionTitle = styled.h3`
   }
 `
 
-const SectionText = styled.h3`
+const SectionText = styled.h4`
   color: rgba(51, 51, 51, 0.838);
-  font-weight:200;
+  font-weight: 200;
   font-size: 18px;
-  line-height: 1.2;
-  
+  line-height: 1.5;
+
   @media (max-width: 720px) {
-    
     padding: 0 20px;
-    font-size: 20px;
+    font-size: 16px;
   }
 `
 
-const WaveBottom = styled.div`
-  position: absolute;
-  width: 100%;
-  bottom: -5px;
-  opacity: 0.25;
-`
 
 const WaveTop = styled.div`
   position: absolute;
@@ -92,17 +86,15 @@ const WaveTop = styled.div`
 const Section = props => (
   <div id="bio">
     <SectionGroup>
-     
-     
-    <WaveTop>
-      <Wave />
-    </WaveTop>
       
       <SectionTitleGroup>
-        <SectionTitle> {props.title} </SectionTitle>
-        <SectionText> {props.text} </SectionText>
+          <SectionTitle> {props.title} </SectionTitle>
+          <SectionText> {props.text} </SectionText>
+          <SectionText> {props.textAdditional} </SectionText>
+          <SectionText> {props.textAdditional1} </SectionText>
       </SectionTitleGroup>
     </SectionGroup>
+    
   </div>
 )
 

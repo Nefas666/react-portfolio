@@ -32,7 +32,7 @@ class HeaderVariant extends React.Component {
       >
         <div className="HeaderGroupPr">
           <Link to="/">
-            <img src={logo} width="60" />
+            <img src={logo} width="40" />
           </Link>
           <Link to="/"> Home</Link>
         </div>
