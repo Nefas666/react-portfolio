@@ -68,9 +68,9 @@ const IndexPage = () => (
         <h2 id="projects-to-be"> Things I'm currently working on </h2>
         <div className="CardGroup">
           <Card
-            title="ESCAPISM 🪂"
-            description="Travel App to help choosing where to travel built in Next.js, ReactJs, Tailwind and Cypress for testing."
-            url="https://exquisite-pithivier-e4fbba.netlify.app/"
+            title="🪂Prompt me Tender 🪂"
+            description="Travel App to help choosing where to travel built with Open-AI APIs, Next.js, Tailwind and Cypress for testing."
+            url="https://prompt-me-tender.netlify.app/"
             img={reactBg}
           />
         </div>
